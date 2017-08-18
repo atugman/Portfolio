@@ -27,7 +27,11 @@ a:focus {
 }
 
 .navStart {
-    background: url(images/clt.jpg) fixed no-repeat;
+    /*background: url(images/clt.jpg) fixed no-repeat;*/
+    background: url(images/clt.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     border-bottom: none;
     margin: 0;
